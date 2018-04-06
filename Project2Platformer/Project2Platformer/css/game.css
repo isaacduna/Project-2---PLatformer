@@ -1,0 +1,62 @@
+.background    { background: rgb(150, 166, 150);
+                 table-layout: fixed;
+                 background-image: url("https://images.unsplash.com/photo-1487925876428-ebd8a23ee1d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a4854952e1d18e80245ff80ed1889532&w=1000&q=80");
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+
+.wall          { background: yellow;
+  outline: 2px solid black;
+  }
+
+.electricity          { background: rgb(100, 100, 100);
+  background-image: url("https://78.media.tumblr.com/a28fdbd739f7c403a3aa95fa008dcc27/tumblr_of9e731mnL1vsjcxvo2_r1_500.gif");
+                  background-size: 30px 30px;
+                }
+
+.player { background: ;
+            background-image: url("http://rs597.pbsrc.com/albums/tt60/Revalia_333/186251_photo.gif~c200");
+                background-size: 35px 45px;
+                background-position:center;
+                 }
+
+.actor  { position: absolute;
+ }
+.coin   { background: ;
+background-image: url("http://rs795.pbsrc.com/albums/yy232/PixKaruumi/Pixels/Pixels%2092/nov42.gif~c200");
+background-size: 20px 12px;
+}
+
+
+.money  { background: ;
+background-image: url("https://zippy.gfycat.com/AcademicGlassHyena.gif");
+background-size: 15px 20px;
+background-position:center;
+}
+
+ .floater {
+                   background-image: url("https://i.pinimg.com/originals/b3/b2/b5/b3b2b51323596399e0a89f7ccd5c4ea1.jpg");
+                   background-size: 60px 60px;
+                   background-position:left center;
+
+                 }
+
+.portal { background: ;
+background-image: url("https://media.giphy.com/media/lBGIvoeU61Oqk/giphy.gif");
+background-size: 20px 20px;
+
+}
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(255, 0, 255);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
